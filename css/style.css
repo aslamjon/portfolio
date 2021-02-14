@@ -3,6 +3,17 @@
   padding: 0;
   box-sizing: border-box; }
 
+.contact .img {
+  height: 520px;
+  overflow: hidden; }
+.contact .contact_img1, .contact .contact_img2, .contact .contact_img3 {
+  width: 25px;
+  margin-right: 15px; }
+.contact .user {
+  transition: 0.2s; }
+.contact .t-hover:hover .user {
+  color: #0075f6; }
+
 .footer {
   background-color: #0075f6; }
   .footer .color {
