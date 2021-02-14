@@ -1,8 +1,30 @@
-$bg-color: #E5E5E5;
-
 body{
     margin: 0;
     padding: 0;
-
 }
-@import 'nav';
+
+.section-Header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    box-shadow: 0.1px 0.1px 20px rgb(238, 231, 231);
+    height: 60px;
+    .navbar{
+        .navbar-brand{
+            margin-top: -30px;
+        }
+        .collapse{
+            .one{
+                margin-left: 705px;
+            }
+            .nav-item{
+                
+            }
+        }
+    }
+}
+
+.section-carusel{
+    height: 300vh;
+}
