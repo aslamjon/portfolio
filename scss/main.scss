@@ -1,8 +1,8 @@
 $bg-color: #E5E5E5;
-
-body{
+* {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
-@import 'nav';
+
+@import 'footer';
