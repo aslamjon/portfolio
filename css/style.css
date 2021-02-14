@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -100,5 +101,69 @@ body {
     margin-top: 25px;
   }
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contact .img {
+  height: 520px;
+  overflow: hidden; }
+.contact .contact_img1, .contact .contact_img2, .contact .contact_img3 {
+  width: 25px;
+  margin-right: 15px; }
+.contact .user {
+  transition: 0.2s; }
+.contact .t-hover:hover .user {
+  color: #0075f6; }
+
+.footer {
+  background-color: #0075f6; }
+  .footer .color {
+    color: rgba(255, 255, 255, 0.7); }
+  .footer .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    mask-position: center center;
+    mask-size: 90%;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center center;
+    -webkit-mask-size: 90%;
+    -webkit-mask-repeat: no-repeat; }
+  .footer .rightArrow {
+    mask-image: url("../img/right-arrow.svg");
+    -webkit-mask-image: url("../img/right-arrow.svg"); }
+  .footer ul li {
+    margin: 5px 0; }
+    .footer ul li a:hover {
+      color: white; }
+      .footer ul li a:hover .rightArrow {
+        background-color: white; }
+  .footer .social {
+    width: 50px !important;
+    height: 50px !important;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    transition: 0.2s; }
+  .footer .img1 {
+    mask-image: url("../img/twiter.svg");
+    -webkit-mask-image: url("../img/twiter.svg"); }
+  .footer .img2 {
+    mask-image: url("../img/telegram (2).svg");
+    -webkit-mask-image: url("../img/telegram (2).svg"); }
+  .footer .img3 {
+    width: 16px;
+    mask-image: url("../img/facebook.svg");
+    -webkit-mask-image: url("../img/facebook.svg"); }
+  .footer .social:hover {
+    background: rgba(255, 255, 255, 0.3); }
+    .footer .social:hover .img1, .footer .social:hover .img2, .footer .social:hover .img3 {
+      background: white; }
+>>>>>>> 85f572f34fc2f0a1d09fa85eee16a97c1744edc2
 
 /*# sourceMappingURL=style.css.map */
