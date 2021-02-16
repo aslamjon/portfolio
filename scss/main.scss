@@ -1,30 +1,40 @@
-body{
+html{
+    scroll-behavior: smooth;
+}
+
+// $bg-color: #E5E5E5;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-.section-Header{
-    width: 100%;
+.gotop{
     position: fixed;
-    top: 0;
-    background-color: transparent;
-    box-shadow: 0.1px 0.1px 20px rgb(238, 231, 231);
-    height: 60px;
-    .navbar{
-        .navbar-brand{
-            margin-top: -30px;
-        }
-        .collapse{
-            .one{
-                margin-left: 705px;
-            }
-            .nav-item{
-                
-            }
-        }
+    z-index: 11;
+    bottom: 10px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s linear;
+    i{
+        color: white;
+        font-size: 20px;
     }
+    &:hover{
+        background-color: #288bf5;
+        box-shadow: 1px 1px 7px #0075f6, -1px -1px 7px #0075f6; 
+    }
+   
 }
 
-.section-carusel{
-    height: 300vh;
-}
+@import 'header';
+@import 'typescript';
+@import 'sectiontwo';
+@import 'contact';
+@import 'footer';
