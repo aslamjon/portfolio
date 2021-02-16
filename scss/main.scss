@@ -16,7 +16,7 @@ html{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: black;
+    background:linear-gradient(to bottom , #054992, #0075f6 );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,8 +27,7 @@ html{
         font-size: 20px;
     }
     &:hover{
-        background-color: #288bf5;
-        box-shadow: 1px 1px 7px #0075f6, -1px -1px 7px #0075f6; 
+        box-shadow: 1px 1px 7px #2a85e6, -1px -1px 7px #0075f6; 
     }
    
 }

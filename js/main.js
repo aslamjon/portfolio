@@ -5,7 +5,7 @@ document.getElementById('date').innerHTML = n;
 //typescript
 
 
-const texts = ["I'm a Frontend Developer" , "And my nickname is Mr T"];
+const texts = ["I'm a Frontend Developer" , "And I'm a Student"];
 let count = 0;
 let index = 0;
 let currentText = '';

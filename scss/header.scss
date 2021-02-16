@@ -3,18 +3,43 @@ body{
     padding: 0;
 }
 
-.section-Header{
+header.scroll{
+    background-color: #0075f6;
+}
+header.scroll .navba{
+    color: white !important; 
+} 
+header.scroll .container .navbar  .nav-item a{
+    color: white !important;
+}
+header.scroll .container .navbar  .nav-item .line{
+    background-color: white !important;
+}
+header.scroll .container .navbar-toggler .hamburger .bar{
+    background-color: white;
+}
+
+//BU navigation scroll active niki
+
+// header.scroll .container .navbar  .nav-item  a.active{
+//     transition: 0.3s linear;
+//     color: black !important;
+//     border-bottom: 2px solid white;
+// }
+header{
     width: 100%;
     position: fixed;
     z-index: 1111;
     top: 0;
-    background-color: #0075f6;
+    background-color: white;
+    transition: 0.3s linear;
+    scroll-padding: 65px;
     .navbar{
         width: 100% !important;
-        .navbar-brand{
+        .navba{
             font-size: 26px;
             font-weight: 700;
-            color: white;
+            color: #0075f6;
         }
         .navbar-toggler{
             outline: none !important;
@@ -36,7 +61,7 @@ body{
                 padding: 0;
                 width: 25px;
                 height: 3px;
-                background-color: white;
+                background-color: #0075f6;
                 display: block;
                 border-radius: 4px;
                 transition: all 0.4s ease-in-out;
@@ -110,15 +135,17 @@ body{
                 .line{
                     width: 0%;
                     height: 2px;
-                    background-color: white;
+                    background-color: #0075f6;
                     margin-left: 5%;
                     transition: 0.3s linear;
                 }
                 &:hover .line{
                     width: 90%;
                 }
-               
-               
+                .nav-link{
+                    color: #0075f6 !important;
+                    font-weight: 500;
+                }
             }
         }
     }
@@ -159,11 +186,9 @@ body{
                        width: 0 !important;
                        margin-left: 40% !important;
                        transition: 0.3s linear;
-                    //   display: none;
                    }
                    &:hover .line{
                        width: 20%!important;
-                    //    background-color: black;
                    }
                    &:hover .nav-link{
                        color: #0075f6;
