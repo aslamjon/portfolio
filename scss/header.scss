@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section-Header{
+    width: 100%;
+    position: fixed;
+    z-index: 1111;
+    top: 0;
+    background-color: #0075f6;
+    .navbar{
+        width: 100% !important;
+        .navbar-brand{
+            font-size: 26px;
+            font-weight: 700;
+            color: white;
+        }
+        .navbar-toggler{
+            outline: none !important;
+            .visuallyHidden {
+                position: absolute; 
+                overflow: hidden; 
+                clip: rect(0 0 0 0); 
+                height: 1px; width: 1px; 
+                margin: -1px; padding: 0; border: 0; 
+            }
+            .hamburger {
+                margin: 0px auto;
+                margin-top: 13px;
+                width: 20px;
+                height: 20px;
+                position: relative;
+            }
+            .hamburger .bar {
+                padding: 0;
+                width: 25px;
+                height: 3px;
+                background-color: white;
+                display: block;
+                border-radius: 4px;
+                transition: all 0.4s ease-in-out;
+                position: absolute; 
+            }
+            .bar2,
+.bar3 {
+    top: 8px;
+}
+
+.bar3 {
+    right: 0;
+}
+
+.bar4 {
+    bottom: 0;
+}
+.hamburger4 .bar4 {
+    top: 8px;
+}
+.hamburger4 .bar5 {
+    bottom: 0px;
+}
+.hamburger4 .bar {
+    transition: all 0.4s ease-in-out, transform 0.4s ease-in-out 0.4s;
+}
+
+.hamburger4 .bar2 {
+    width: 1px;
+    transform: rotate(90deg);
+    left: 13.5px;
+}
+
+.hamburger4 .bar3 {
+    width: 1px;
+    left: 13.5px;
+    
+}
+.checkbox4:checked + label > .hamburger4 > .bar1{
+    top: 0;
+    background-color: transparent;
+}
+
+.checkbox4:checked + label > .hamburger4 > .bar2{
+    left: 0px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+
+.checkbox4:checked + label > .hamburger4 > .bar3{
+    left: 0;
+    width: 25px;
+    transform: rotate(-45deg);
+}
+
+.checkbox4:checked + label > .hamburger4 > .bar4{
+    background-color: transparent;
+}
+
+.checkbox4:checked + label > .hamburger4 > .bar5{
+    bottom: 13.5px;
+    background-color: transparent; 
+}
+
+        }
+        .collapse{
+            .navbar-nav{
+                margin-left: auto;
+            }
+            .nav-item{
+                .line{
+                    width: 0%;
+                    height: 2px;
+                    background-color: white;
+                    margin-left: 5%;
+                    transition: 0.3s linear;
+                }
+                &:hover .line{
+                    width: 90%;
+                }
+               
+               
+            }
+        }
+    }
+}
+
+@media (max-width:576px){
+    .section-Header{
+     .navbar{
+         .navbar-nav{
+             margin: 0 !important;
+             text-align: center;
+             .nav-item{
+                 margin: 0 !important;
+                 transition: 0.3s linear;
+                .line{
+                    width: 0 !important;
+                    transition: 0.3s linear;
+                    margin-left: 40% !important;
+                }
+                &:hover .line{
+                    width: 20% !important;
+                }
+              
+             }
+         }
+     }
+    }
+}
+@media (min-width:577px) and (max-width:768px){
+    .section-Header{
+        .navbar{
+            .navbar-nav{
+                margin: 0 !important;
+                text-align: center;
+                .nav-item{
+                    margin: 0 !important;
+                   .line{
+                       width: 0 !important;
+                       margin-left: 40% !important;
+                       transition: 0.3s linear;
+                    //   display: none;
+                   }
+                   &:hover .line{
+                       width: 20%!important;
+                    //    background-color: black;
+                   }
+                   &:hover .nav-link{
+                       color: #0075f6;
+                   }
+                }
+            }
+        }
+       }
+}
+@media (min-width:769px) and (max-width:992px){
+    .section-Header{
+        .navbar{
+            .navbar-nav{
+                margin-left:auto;
+                text-align: center !important;
+                .nav-item{
+                    margin: 0 !important;
+                    transition: 0.3s all linear !important;
+                   .line{
+                       width: 0 !important;
+                       transition: 0.3s all linear;
+                       margin-left: 7%!important;
+                   }
+                   &:hover .line{
+                       width: 86% !important;
+                   }
+                  
+                }
+            }
+        }
+       }
+}
