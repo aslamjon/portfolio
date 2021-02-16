@@ -17,6 +17,7 @@
   />
     <link rel="stylesheet" href="css/privet_bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
     <title>Successful Team 65</title>
 </head>
 
@@ -45,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="row fs-20 font-weight-500 mb-2  mt-5   wow animate__bounceOutDown">
+                    <div class="row fs-20 font-weight-500 mb-2  mt-5 wow animate__slideInDown">
                         <div class="col-md-8 col-sm-8 col-8">
                             HTML5
                         </div>
@@ -53,13 +54,13 @@
                             75%
                         </div>
                     </div>
-                    <div class="progress wow slideInLeft">
+                    <div class="progress  wow animate__slideInDown">
                         <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
 
-                    <div class="row fs-20 font-weight-500 mb-2 mt-4">
+                    <div class="row fs-20 font-weight-500 mb-2 mt-4 wow animate__slideInLeft">
                         <div class="col-md-8 col-sm-8 col-8">
                             CSS3
                         </div>
@@ -67,13 +68,13 @@
                             85%
                         </div>
                     </div>
-                    <div class="progress">
+                    <div class="progress wow animate__slideInLeft">
                         <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
 
-                    <div class="row fs-20 font-weight-500 mb-2 mt-4">
+                    <div class="row fs-20 font-weight-500 mb-2 mt-4 wow animate__slideInUp">
                         <div class="col-md-6 col-sm-6 col-6">
                           Bootstrap
                         </div>
@@ -81,7 +82,7 @@
                             70%
                         </div>
                     </div>
-                    <div class="progress">
+                    <div class="progress  wow animate__slideInUp">
                         <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -92,7 +93,7 @@
 
 
                 <div class="col-md-6">
-                    <div class="row fs-20 font-weight-500 mb-2 mt-5">
+                    <div class="row fs-20 font-weight-500 mb-2 mt-5 wow animate__slideInDown">
                         <div class="col-md-5 col-sm-5 col-5">
                            JavaScript
                         </div>
@@ -100,13 +101,13 @@
                             60%
                         </div>
                     </div>
-                    <div class="progress">
+                    <div class="progress wow animate__slideInDown">
                         <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
 
-                    <div class="row fs-20 font-weight-500 mb-2 mt-4">
+                    <div class="row fs-20 font-weight-500 mb-2 mt-4 wow animate__slideInRight">
                         <div class="col-md-10 col-sm-10 col-10">
                            Git
                         </div>
@@ -114,13 +115,13 @@
                             90%
                         </div>
                     </div>
-                    <div class="progress">
+                    <div class="progress wow animate__slideInRight">
                         <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
 
 
-                    <div class="row fs-20 font-weight-500 mb-2 mt-4">
+                    <div class="row fs-20 font-weight-500 mb-2 mt-4 wow animate__slideInRight">
                         <div class="col-md-8 col-sm-8 col-8">
                            React Js
                         </div>
@@ -128,7 +129,7 @@
                             80%
                         </div>
                     </div>
-                    <div class="progress">
+                    <div class="progress wow animate__slideInRight">
                         <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
                             aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
@@ -164,7 +165,7 @@
             <div class="container mt-6 pb-11">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card border-0">
+                        <div class="card border-0 wow animate__slideOutLeft">
                             <div class="card-header bg-white border-0">
                                 <div class="icon center w-25 h-25 mx-auto pt-3">
                                     <img src="./img/analysis.svg" class="img-fluid www" alt="">
@@ -183,7 +184,7 @@
 
 
                     <div class="col-md-4 min">
-                        <div class="card border-0">
+                        <div class="card border-0 wow animate__slideOutUp">
                             <div class="card-header bg-white border-0">
                                 <div class="icon center w-25 h-25 mx-auto pt-3">
                                     <img src="./img/laboratory.svg" class="img-fluid www" alt="">
@@ -202,7 +203,7 @@
 
 
                     <div class="col-md-4 min">
-                        <div class="card border-0">
+                        <div class="card border-0 wow animate__slideOutRight">
                             <div class="card-header bg-white border-0">
                                 <div class="icon center w-25 h-25 mx-auto pt-3">
                                     <img src="./img/lightbulb.svg" class="img-fluid www" alt="">
@@ -525,11 +526,10 @@
     
     <script src="js/main.js"></script>
 
-
     <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>
