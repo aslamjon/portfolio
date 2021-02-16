@@ -1,0 +1,131 @@
+
+
+.sectionb-1, .sectionb-2 {
+    background: #f8f9fa
+    
+}
+
+
+.sectionb-2 {
+    .card {
+        box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+    }
+    
+}
+
+
+.Explore {
+    line-height: 1.3;
+font-size: 13px;
+font-weight: 500;
+letter-spacing: 3px;
+text-transform: uppercase;
+position: relative;
+&::after {
+    position: absolute;
+bottom: -15px;
+left: 0;
+right: 0;
+content: '';
+width: 30px;
+height: 1px;
+background: #000000;
+margin: 0 auto;
+}
+}
+
+.sectionb-3 {
+    background: #0075f6;
+}
+
+
+.sectionb-4 {
+    .container {
+        .hhh {
+           height: 600px;
+        }
+
+        .hhh2 {
+            height: 285px;
+         }
+
+         .hhh4 {
+            height: 285px;
+         }
+    .rrr {
+        position: relative;
+        &:hover .text{
+         opacity: .9;
+        }   
+        .att {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            height: 100%;
+        }
+        .img {
+            background-image: url(../img/project-1.jpg);  
+      }
+      .img2 {
+        background-image: url(../img/project-2.jpg);  
+  }
+  .img3 {
+    background-image: url(../img/project-3.jpg);  
+}
+.img4 {
+    background-image: url(../img/project-4.jpg);  
+}
+.img5 {
+    background-image: url(../img/project-5.jpg);  
+}
+        .text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            background: #0075f6;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+    }
+    
+    }
+}
+
+
+
+
+@media (min-width: 50px) and (max-width: 767px) {
+    .min {
+        margin-top: 60px;
+    }
+
+    .sec3 {
+        text-align: center;
+        &:nth-child(2) {
+            margin-top: 30px;
+        }
+    }
+ 
+    .xxx {
+        margin-top: 25px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
