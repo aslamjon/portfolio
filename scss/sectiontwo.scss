@@ -1,0 +1,130 @@
+.section-my{
+    margin-top: 50px !important;
+    .col-md-7{
+        .welcome{
+            font-size: 13px;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 5px;
+            color: #000000;
+            letter-spacing: 3px;
+        }
+        .aboutMe{
+            font-size: 34px;
+            font-weight: 700;
+            margin-bottom: 1.5rem !important;
+            color: rgba(0, 0, 0, 0.9);
+        }
+        .textabout{
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 450;
+            color: #999999
+        }
+        .design{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 1rem !important;
+            line-height: 1.5;
+            color: rgba(0, 0, 0, 0.9);
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .section-my{
+        .col-md-7{
+            .col-sm-12{
+                padding-top: 0 !important;
+                .welcome{
+                    font-size: 10px;
+                    font-weight: 400;
+                    display: block;
+                    margin-bottom: 0 !important;
+                }
+                .aboutMe{
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 10px !important;
+                }
+                .textabout{
+                    font-size: 12px;
+                    line-height: 1.2;
+                    font-weight: 400;
+                }
+ 
+            }
+            .col-sm-6{
+                margin-top: 0 !important;
+              div{
+                  overflow: hidden;
+                img{
+                    width: 220px !important;
+                    height: 150px !important;
+                }
+              }
+                .design{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    margin-top: 5px !important;
+                }
+                .textabout{
+                    font-size: 12px;
+                    line-height: 1.4;
+                    font-weight: 400;
+                }
+            }
+            
+        }
+    }
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .section-my{
+        .col-md-7{
+            .col-sm-12{
+                margin-top: 0 !important;
+                .welcome{
+                    font-size: 14px !important;
+                    font-weight: 450;
+                    display: block;
+                    margin-bottom: 0 !important;
+                }
+                .aboutMe{
+                    font-size: 32px;
+                    font-weight: 600;
+                    margin-bottom: 10px !important;
+                }
+                .textabout{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    font-weight: 450;
+                }
+ 
+            }
+            .col-sm-6{
+                margin-top: 50px !important;
+              div{
+                  overflow: hidden;
+                img{
+                    width: 220px !important;
+                    height: 150px !important;
+                }
+              }
+                .design{
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 1.2;
+                    margin-top: 5px !important;
+                }
+                .textabout{
+                    font-size: 14px;
+                    line-height: 1.5;
+                    font-weight: 450;
+                }
+            }
+            
+        }
+    }
+}
