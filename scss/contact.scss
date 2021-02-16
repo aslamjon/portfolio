@@ -11,7 +11,10 @@
         transition: 0.2s;
     }
     .t-hover{
+        color: #212529;
+        transition: 0.2s;
         &:hover {
+            color: #0075f6 !important;
             .user {
                 color: #0075f6;
             }
