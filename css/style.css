@@ -5,6 +5,9 @@ html {
   margin: 0;
   padding: 0; }
 
+body {
+  background-color: #343a40; }
+
 .gotop {
   position: fixed;
   z-index: 111111111111;
@@ -486,6 +489,51 @@ header {
       font-size: 14px;
       line-height: 1.5;
       font-weight: 450; } }
+.projects .project1 {
+  background: url("../img/ToDoList.jpg"); }
+.projects .project2 {
+  background: url("../img/ToDoList.jpg"); }
+.projects .project3 {
+  background: url("../img/ToDoList.jpg"); }
+.projects .project4 {
+  background: url("../img/ToDoList.jpg"); }
+.projects .project5 {
+  background: url("../img/ToDoList.jpg"); }
+.projects .project6 {
+  background: url("../img/ToDoList.jpg"); }
+.projects .project1, .projects .project2, .projects .project3, .projects .project4, .projects .project5, .projects .project6 {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.3s all linear;
+  overflow: hidden;
+  border-radius: 10px; }
+  .projects .project1 .content, .projects .project2 .content, .projects .project3 .content, .projects .project4 .content, .projects .project5 .content, .projects .project6 .content {
+    width: 100%;
+    height: 200px;
+    transform: translateY(200px);
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 50%; }
+    .projects .project1 .content a, .projects .project2 .content a, .projects .project3 .content a, .projects .project4 .content a, .projects .project5 .content a, .projects .project6 .content a {
+      margin-left: 20px; }
+      .projects .project1 .content a img, .projects .project2 .content a img, .projects .project3 .content a img, .projects .project4 .content a img, .projects .project5 .content a img, .projects .project6 .content a img {
+        width: 20px;
+        transition: 0.3s; }
+      .projects .project1 .content a:hover img, .projects .project2 .content a:hover img, .projects .project3 .content a:hover img, .projects .project4 .content a:hover img, .projects .project5 .content a:hover img, .projects .project6 .content a:hover img {
+        width: 25px; }
+  .projects .project1:hover, .projects .project2:hover, .projects .project3:hover, .projects .project4:hover, .projects .project5:hover, .projects .project6:hover {
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .projects .project1:hover .content, .projects .project2:hover .content, .projects .project3:hover .content, .projects .project4:hover .content, .projects .project5:hover .content, .projects .project6:hover .content {
+      transform: translateY(0px);
+      border-radius: 0; }
+
 .contact .img {
   height: 530px;
   overflow: hidden; }

@@ -1,0 +1,67 @@
+
+.projects {
+    
+    .project1 {
+        background: url('../img/ToDoList.jpg');
+    }
+    .project2 {
+        background: url('../img/ToDoList.jpg');
+    }
+    .project3 {
+        background: url('../img/ToDoList.jpg');
+    }
+    .project4 {
+        background: url('../img/ToDoList.jpg');
+    }
+    .project5 {
+        background: url('../img/ToDoList.jpg');
+    }
+    .project6 {
+        background: url('../img/ToDoList.jpg');
+    }
+
+    .project1, .project2, .project3, .project4, .project5, .project6 {
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.3s all linear;
+        overflow: hidden;
+        border-radius: 10px;
+        .content {
+            width: 100%;
+            height: 200px;
+            transform: translateY(200px);
+            color: white;
+            background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+            border-radius: 50%;
+            a {
+                margin-left: 20px;
+                img {
+                    width: 20px;
+                    transition: 0.3s;
+                }
+                &:hover {
+                    img {
+                        width: 25px;
+                    }
+                }
+            }
+        }
+        &:hover {
+            background-repeat: no-repeat;
+            background-size: cover;
+            .content {
+                transform: translateY(0px);
+                border-radius: 0;
+            }
+        }
+    }
+
+    
+
+}
