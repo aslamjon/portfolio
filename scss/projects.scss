@@ -65,3 +65,42 @@
     
 
 }
+.nav-tabs {
+    border: none;
+    .nav-item {
+        position: relative;
+        .nav-link {
+            border: none;
+            border-bottom: 2px solid  transparent;
+            font-weight: 700;
+            color: #0075f6;
+        }
+        .active {
+            border-bottom: 2px solid  #0075f6;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 2px;
+            background-color: #0075f6;
+            // margin-left: 5%;
+            transition: 0.3s linear;
+        }
+        // .line {
+        //     width: 0%;
+        //     height: 2px;
+        //     background-color: #0075f6;
+        //     // margin-left: 5%;
+        //     transition: 0.3s linear;
+        // }
+        &:hover {
+            &::after {
+                margin-left: 5%;
+                width: 90%;
+            }
+        }
+    }
+}

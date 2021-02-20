@@ -5,9 +5,6 @@ html {
   margin: 0;
   padding: 0; }
 
-body {
-  background-color: #343a40; }
-
 .gotop {
   position: fixed;
   z-index: 111111111111;
@@ -533,6 +530,30 @@ header {
     .projects .project1:hover .content, .projects .project2:hover .content, .projects .project3:hover .content, .projects .project4:hover .content, .projects .project5:hover .content, .projects .project6:hover .content {
       transform: translateY(0px);
       border-radius: 0; }
+
+.nav-tabs {
+  border: none; }
+  .nav-tabs .nav-item {
+    position: relative; }
+    .nav-tabs .nav-item .nav-link {
+      border: none;
+      border-bottom: 2px solid  transparent;
+      font-weight: 700;
+      color: #0075f6; }
+    .nav-tabs .nav-item .active {
+      border-bottom: 2px solid  #0075f6; }
+    .nav-tabs .nav-item::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: #0075f6;
+      transition: 0.3s linear; }
+    .nav-tabs .nav-item:hover::after {
+      margin-left: 5%;
+      width: 90%; }
 
 .contact .img {
   height: 530px;
