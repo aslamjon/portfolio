@@ -164,8 +164,7 @@ header {
         border-radius: 4px;
         transition: all 0.4s ease-in-out;
         position: absolute; }
-      header .navbar .navbar-toggler .bar2,
-      header .navbar .navbar-toggler .bar3 {
+      header .navbar .navbar-toggler .bar2, header .navbar .navbar-toggler .bar3 {
         top: 8px; }
       header .navbar .navbar-toggler .bar3 {
         right: 0; }
@@ -202,17 +201,18 @@ header {
         background-color: transparent; }
     header .navbar .collapse .navbar-nav {
       margin-left: auto; }
-    header .navbar .collapse .nav-item .line {
-      width: 0%;
-      height: 2px;
-      background-color: #0075f6;
-      margin-left: 5%;
-      transition: 0.3s linear; }
-    header .navbar .collapse .nav-item:hover .line {
-      width: 90%; }
     header .navbar .collapse .nav-item .nav-link {
       color: #0075f6 !important;
       font-weight: 500; }
+      header .navbar .collapse .nav-item .nav-link .line {
+        width: 0%;
+        height: 2px;
+        background-color: #0075f6;
+        transition: 0.3s linear; }
+    header .navbar .collapse .nav-item:hover .line {
+      width: 100%; }
+    header .navbar .collapse .nav-item .active .line {
+      width: 100%; }
 
 @media (max-width: 576px) {
   .section-Header .navbar .navbar-nav {
@@ -221,12 +221,14 @@ header {
     .section-Header .navbar .navbar-nav .nav-item {
       margin: 0 !important;
       transition: 0.3s linear; }
-      .section-Header .navbar .navbar-nav .nav-item .line {
+      .section-Header .navbar .navbar-nav .nav-item .nav-link .line {
         width: 0 !important;
         transition: 0.3s linear;
-        margin-left: 40% !important; }
+        margin-left: 43% !important; }
       .section-Header .navbar .navbar-nav .nav-item:hover .line {
-        width: 20% !important; } }
+        width: 14% !important; }
+      .section-Header .navbar .navbar-nav .nav-item .active .line {
+        width: 14% !important; } }
 @media (min-width: 577px) and (max-width: 768px) {
   .section-Header .navbar .navbar-nav {
     margin: 0 !important;
@@ -630,6 +632,7 @@ header {
   .col-sm-6 {
     display: flex;
     justify-content: center;
-    align-items: center; } }
+    align-items: center;
+    flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */
