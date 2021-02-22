@@ -5,9 +5,9 @@ window.addEventListener('scroll', event =>{
 });
 
 
-//navigation scroll active
+// navigation scroll active comment
 // window.addEventListener('scroll', event =>{
-//     let navigatActive = document.querySelectorAll(' .container .navbar  .nav-item  a');
+//     let navigatActive = document.querySelectorAll('header .container .row .navbar .collapse ul li a');
 //     let fromTop = window.scrollY;
 
 //     navigatActive.forEach(link =>{
@@ -24,3 +24,13 @@ window.addEventListener('scroll', event =>{
 //      }
 //     });
 // })
+
+// const currentLocation = location.href;
+// const menuItem = document.getElementsByName('vavv');
+// const menuLength = menuItem.length;
+// for (let i=0; i<menuLength; i++) {
+//     if(menuItem[i].href === currentLocation){
+//         menuItem[i].className = 'active';
+//     }
+// } 
+
