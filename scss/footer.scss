@@ -4,6 +4,7 @@
     .color {
         color: rgba(255, 255, 255, 0.7);
     }
+    
     .icon {
         width: 20px;
         height: 20px;
@@ -64,5 +65,13 @@
         .img1,.img2,.img3 {
             background: white;
         }
+    }
+}
+@media (max-width: 768px) {
+    .col-sm-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }

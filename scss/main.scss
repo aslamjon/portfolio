@@ -8,6 +8,7 @@ html{
     padding: 0;
     
 }
+
 .gotop{
     position: fixed;
     z-index: 111111111111;
@@ -37,5 +38,6 @@ html{
 @import 'header';
 @import 'typescript';
 @import 'sectiontwo';
+@import 'projects';
 @import 'contact';
 @import 'footer';
