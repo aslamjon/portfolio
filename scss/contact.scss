@@ -33,3 +33,15 @@
         }
     }
 }
+@media (min-width:769px) and (max-width:992px) {
+    .contact{
+        .container{
+            .col-sm-12{
+                textarea{
+                    height: 85px !important;
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}

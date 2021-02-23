@@ -28,4 +28,3 @@ let letter = '';
 }());
 
 
-// vertical carusel
