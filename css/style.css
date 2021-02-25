@@ -489,47 +489,51 @@ header {
       line-height: 1.5;
       font-weight: 450; } }
 .projects .project1 {
-  background: url("../img/ToDoList.jpg"); }
+  background: url("../img/meva.jpg"); }
 .projects .project2 {
-  background: url("../img/ToDoList.jpg"); }
+  background: url("../img/maxWay.jpg"); }
 .projects .project3 {
-  background: url("../img/ToDoList.jpg"); }
+  background: url("../img/beeline2.jpg"); }
 .projects .project4 {
-  background: url("../img/ToDoList.jpg"); }
+  background: url("../img/codeBox2.jpg"); }
 .projects .project5 {
-  background: url("../img/ToDoList.jpg"); }
+  background: url("../img/clickup.jpg"); }
 .projects .project6 {
-  background: url("../img/ToDoList.jpg"); }
-.projects .project1, .projects .project2, .projects .project3, .projects .project4, .projects .project5, .projects .project6 {
+  background: url("../img/ToDoList2.jpg"); }
+.projects .project7 {
+  background: url("../img/calc2.jpg"); }
+.projects .project1, .projects .project2, .projects .project3, .projects .project4, .projects .project5, .projects .project6, .projects .project7 {
   width: 100%;
-  height: 200px;
+  height: 160px;
   background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.3s all linear;
+  background-size: 100% 100%;
+  transition: 0.5s all linear !important;
   overflow: hidden;
-  border-radius: 10px; }
-  .projects .project1 .content, .projects .project2 .content, .projects .project3 .content, .projects .project4 .content, .projects .project5 .content, .projects .project6 .content {
+  border-radius: 10px;
+  box-shadow: 0 0 10px #c4c4c4; }
+  .projects .project1 .content, .projects .project2 .content, .projects .project3 .content, .projects .project4 .content, .projects .project5 .content, .projects .project6 .content, .projects .project7 .content {
     width: 100%;
-    height: 200px;
+    height: 100%;
     transform: translateY(200px);
     color: white;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3s;
-    border-radius: 50%; }
-    .projects .project1 .content a, .projects .project2 .content a, .projects .project3 .content a, .projects .project4 .content a, .projects .project5 .content a, .projects .project6 .content a {
+    transition: 0.5s all linear !important;
+    border-radius: 90%; }
+    .projects .project1 .content a, .projects .project2 .content a, .projects .project3 .content a, .projects .project4 .content a, .projects .project5 .content a, .projects .project6 .content a, .projects .project7 .content a {
       margin-left: 20px; }
-      .projects .project1 .content a img, .projects .project2 .content a img, .projects .project3 .content a img, .projects .project4 .content a img, .projects .project5 .content a img, .projects .project6 .content a img {
+      .projects .project1 .content a img, .projects .project2 .content a img, .projects .project3 .content a img, .projects .project4 .content a img, .projects .project5 .content a img, .projects .project6 .content a img, .projects .project7 .content a img {
         width: 20px;
         transition: 0.3s; }
-      .projects .project1 .content a:hover img, .projects .project2 .content a:hover img, .projects .project3 .content a:hover img, .projects .project4 .content a:hover img, .projects .project5 .content a:hover img, .projects .project6 .content a:hover img {
+      .projects .project1 .content a:hover img, .projects .project2 .content a:hover img, .projects .project3 .content a:hover img, .projects .project4 .content a:hover img, .projects .project5 .content a:hover img, .projects .project6 .content a:hover img, .projects .project7 .content a:hover img {
         width: 25px; }
-  .projects .project1:hover, .projects .project2:hover, .projects .project3:hover, .projects .project4:hover, .projects .project5:hover, .projects .project6:hover {
+  .projects .project1:hover, .projects .project2:hover, .projects .project3:hover, .projects .project4:hover, .projects .project5:hover, .projects .project6:hover, .projects .project7:hover {
     background-repeat: no-repeat;
-    background-size: cover; }
-    .projects .project1:hover .content, .projects .project2:hover .content, .projects .project3:hover .content, .projects .project4:hover .content, .projects .project5:hover .content, .projects .project6:hover .content {
+    background-size: 100% 100%;
+    box-shadow: 0 0 10px grey; }
+    .projects .project1:hover .content, .projects .project2:hover .content, .projects .project3:hover .content, .projects .project4:hover .content, .projects .project5:hover .content, .projects .project6:hover .content, .projects .project7:hover .content {
       transform: translateY(0px);
       border-radius: 0; }
 
