@@ -581,10 +581,6 @@ header {
     .contact .contact_img1, .contact .contact_img2, .contact .contact_img3 {
       width: 20px;
       margin-right: 10px; } }
-@media (min-width: 769px) and (max-width: 992px) {
-  .contact .container .col-sm-12 textarea {
-    height: 85px !important;
-    width: 100% !important; } }
 .footer {
   background-color: #0075f6; }
   .footer .color {
